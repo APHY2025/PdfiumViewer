@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows10.0.19041.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>CustomPdfiumViewer.Demo</AssemblyName>
+    <RootNamespace>CustomPdfiumViewer.Demo</RootNamespace>
+    <PlatformTarget>x64</PlatformTarget>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <WarningsAsErrors>CS0618</WarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PdfiumViewer.Native.x86_64.v8-xfa" Version="2018.4.8.256" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomPdfiumViewer\CustomPdfiumViewer.csproj" />
+    <ProjectReference Include="..\PdfiumViewer\CustomPdfiumViewer.csproj" />
+  </ItemGroup>
+
+</Project>

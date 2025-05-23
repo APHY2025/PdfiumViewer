@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.36105.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomPdfiumViewer", "CustomPdfiumViewer\CustomPdfiumViewer.csproj", "{6CD1DEDC-6785-652E-13CE-9EB64157357E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomPdfiumViewer.Demo", "CustomPdfiumViewer.Demo\CustomPdfiumViewer.Demo.csproj", "{876C63E9-BB20-0692-90D4-C9FCD5BD8562}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6CD1DEDC-6785-652E-13CE-9EB64157357E} = {6CD1DEDC-6785-652E-13CE-9EB64157357E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CD1DEDC-6785-652E-13CE-9EB64157357E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD1DEDC-6785-652E-13CE-9EB64157357E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD1DEDC-6785-652E-13CE-9EB64157357E}.Debug|x64.ActiveCfg = Debug|x64
+		{6CD1DEDC-6785-652E-13CE-9EB64157357E}.Debug|x64.Build.0 = Debug|x64
+		{6CD1DEDC-6785-652E-13CE-9EB64157357E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD1DEDC-6785-652E-13CE-9EB64157357E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD1DEDC-6785-652E-13CE-9EB64157357E}.Release|x64.ActiveCfg = Release|x64
+		{6CD1DEDC-6785-652E-13CE-9EB64157357E}.Release|x64.Build.0 = Release|x64
+		{876C63E9-BB20-0692-90D4-C9FCD5BD8562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876C63E9-BB20-0692-90D4-C9FCD5BD8562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876C63E9-BB20-0692-90D4-C9FCD5BD8562}.Debug|x64.ActiveCfg = Debug|x64
+		{876C63E9-BB20-0692-90D4-C9FCD5BD8562}.Debug|x64.Build.0 = Debug|x64
+		{876C63E9-BB20-0692-90D4-C9FCD5BD8562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876C63E9-BB20-0692-90D4-C9FCD5BD8562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876C63E9-BB20-0692-90D4-C9FCD5BD8562}.Release|x64.ActiveCfg = Release|x64
+		{876C63E9-BB20-0692-90D4-C9FCD5BD8562}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CB6EA88-3FBB-41E1-A4BB-910B845AC27F}
+	EndGlobalSection
+EndGlobal

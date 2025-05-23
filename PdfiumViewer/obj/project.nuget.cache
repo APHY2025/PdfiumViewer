@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3RvADEUW5RQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\assist-plus\\source\\repos\\CustomPdfiumViewer\\PdfiumViewer\\CustomPdfiumViewer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\assist-plus\\.nuget\\packages\\pdfiumviewer.native.x86_64.v8-xfa\\2018.4.8.256\\pdfiumviewer.native.x86_64.v8-xfa.2018.4.8.256.nupkg.sha512",
+    "C:\\Users\\assist-plus\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512"
+  ],
+  "logs": []
+}
